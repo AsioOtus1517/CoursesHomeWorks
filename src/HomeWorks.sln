@@ -3,20 +3,38 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HwReflections", "HwReflections\HwReflections.csproj", "{E2691D6B-059F-4273-92C8-FC0E4772443C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4", "4", "{0CCA115D-9C64-4D09-68B4-C270E15919F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HwReflections", "HwReflections\HwReflections.csproj", "{CEAD732C-D18E-4CCC-BCA7-F5647EAA021F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6", "6", "{60B23565-B480-25E2-60F7-72B4D1C98041}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3", "3", "{1FAAAE86-D2AC-6F42-476C-C95ECADA8BA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5", "5", "{9BE8FA8C-058A-65E8-A0EC-C227E0F17A36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelFileRead", "ParallelFileRead\ParallelFileRead.csproj", "{AC7F6FCD-3E17-4AE5-8D6F-1092F5515442}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEAD732C-D18E-4CCC-BCA7-F5647EAA021F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEAD732C-D18E-4CCC-BCA7-F5647EAA021F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEAD732C-D18E-4CCC-BCA7-F5647EAA021F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEAD732C-D18E-4CCC-BCA7-F5647EAA021F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC7F6FCD-3E17-4AE5-8D6F-1092F5515442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC7F6FCD-3E17-4AE5-8D6F-1092F5515442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC7F6FCD-3E17-4AE5-8D6F-1092F5515442}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC7F6FCD-3E17-4AE5-8D6F-1092F5515442}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E2691D6B-059F-4273-92C8-FC0E4772443C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E2691D6B-059F-4273-92C8-FC0E4772443C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E2691D6B-059F-4273-92C8-FC0E4772443C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E2691D6B-059F-4273-92C8-FC0E4772443C}.Release|Any CPU.Build.0 = Release|Any CPU
+	GlobalSection(NestedProjects) = preSolution
+		{CEAD732C-D18E-4CCC-BCA7-F5647EAA021F} = {0CCA115D-9C64-4D09-68B4-C270E15919F5}
+		{AC7F6FCD-3E17-4AE5-8D6F-1092F5515442} = {60B23565-B480-25E2-60F7-72B4D1C98041}
 	EndGlobalSection
 EndGlobal
