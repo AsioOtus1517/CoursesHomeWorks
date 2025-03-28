@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThread", "MultiThread\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{E3CE9FA5-06FA-4357-AD31-02DA2B85222D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreationalPatterns", "CreationalPatterns\CreationalPatterns.csproj", "{D413E9CD-D6CA-47CD-A0F5-C8DCA3C30139}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{E3CE9FA5-06FA-4357-AD31-02DA2B85222D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3CE9FA5-06FA-4357-AD31-02DA2B85222D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3CE9FA5-06FA-4357-AD31-02DA2B85222D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D413E9CD-D6CA-47CD-A0F5-C8DCA3C30139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D413E9CD-D6CA-47CD-A0F5-C8DCA3C30139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D413E9CD-D6CA-47CD-A0F5-C8DCA3C30139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D413E9CD-D6CA-47CD-A0F5-C8DCA3C30139}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,5 +60,6 @@ Global
 		{AC7F6FCD-3E17-4AE5-8D6F-1092F5515442} = {60B23565-B480-25E2-60F7-72B4D1C98041}
 		{0C238096-6877-4349-B864-4B8368B06F51} = {D479026C-CB03-80C5-7914-946047BC43F3}
 		{E3CE9FA5-06FA-4357-AD31-02DA2B85222D} = {9BE8FA8C-058A-65E8-A0EC-C227E0F17A36}
+		{D413E9CD-D6CA-47CD-A0F5-C8DCA3C30139} = {3672CF7B-CC8D-D2D3-AFC6-325A33316845}
 	EndGlobalSection
 EndGlobal
