@@ -1,6 +1,6 @@
 namespace CreationalPatterns;
 
-public class Paladin : Warior, IMyCloneable<Paladin>
+public class Paladin : Warior
 {
     public int HolyPower { get; set; } = 10;
 

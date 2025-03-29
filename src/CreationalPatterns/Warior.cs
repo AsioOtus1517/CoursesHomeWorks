@@ -1,6 +1,6 @@
 namespace CreationalPatterns;
 
-public class Warior : Character, IMyCloneable<Warior>
+public class Warior : Character
 {
     public int Strength { get; set; }
 
